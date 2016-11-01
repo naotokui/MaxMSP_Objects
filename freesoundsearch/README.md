@@ -5,4 +5,4 @@ Search/browse/preview/download tens of thousands of sound files under Creative C
 2016.10  
 **DISCONTINUED!** - Due to a big API changes, this object no longer properly works. Only for archiving purpose.
 
-![screenshot](./freesound_screen.png "Logo Title Text 1")
+![](./freesound_screen.png)

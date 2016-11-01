@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		351B89B81DC80E8400E085DF /* MaxAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 351B89B71DC80E8400E085DF /* MaxAPI.framework */; };
+		351B89BC1DC8103700E085DF /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 351B89BB1DC8103700E085DF /* QTKit.framework */; };
+		353158A50B59F187003465EA /* freesoundsearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 353158A40B59F187003465EA /* freesoundsearch.h */; };
+		354CDFF90B5F0FAB008DD222 /* AGRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 354CDFF70B5F0FAB008DD222 /* AGRegex.m */; };
+		354CDFFA0B5F0FAB008DD222 /* AGRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = 354CDFF80B5F0FAB008DD222 /* AGRegex.h */; };
+		354CE0060B5F0FB1008DD222 /* chartables.c in Sources */ = {isa = PBXBuildFile; fileRef = 354CDFFE0B5F0FB1008DD222 /* chartables.c */; };
+		354CE0070B5F0FB1008DD222 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 354CDFFF0B5F0FB1008DD222 /* config.h */; };
+		354CE0080B5F0FB1008DD222 /* get.c in Sources */ = {isa = PBXBuildFile; fileRef = 354CE0000B5F0FB1008DD222 /* get.c */; };
+		354CE0090B5F0FB1008DD222 /* internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 354CE0010B5F0FB1008DD222 /* internal.h */; };
+		354CE00A0B5F0FB1008DD222 /* maketables.c in Sources */ = {isa = PBXBuildFile; fileRef = 354CE0020B5F0FB1008DD222 /* maketables.c */; };
+		354CE00B0B5F0FB1008DD222 /* pcre.c in Sources */ = {isa = PBXBuildFile; fileRef = 354CE0030B5F0FB1008DD222 /* pcre.c */; };
+		354CE00C0B5F0FB1008DD222 /* pcre.h in Headers */ = {isa = PBXBuildFile; fileRef = 354CE0040B5F0FB1008DD222 /* pcre.h */; };
+		354CE00D0B5F0FB1008DD222 /* study.c in Sources */ = {isa = PBXBuildFile; fileRef = 354CE0050B5F0FB1008DD222 /* study.c */; };
+		356A908F0B12931F005F5ADE /* NTFreesoundSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 356A908D0B12931F005F5ADE /* NTFreesoundSearch.h */; };
+		356A90900B12931F005F5ADE /* NTFreesoundSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 356A908E0B12931F005F5ADE /* NTFreesoundSearch.m */; };
+		356A90A10B129C6E005F5ADE /* NTLoginConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 356A909F0B129C6E005F5ADE /* NTLoginConnection.h */; };
+		356A90A20B129C6E005F5ADE /* NTLoginConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 356A90A00B129C6E005F5ADE /* NTLoginConnection.m */; };
+		356A90CA0B12AA56005F5ADE /* NTGeneralURLAccess.h in Headers */ = {isa = PBXBuildFile; fileRef = 356A90C80B12AA56005F5ADE /* NTGeneralURLAccess.h */; };
+		356A90CB0B12AA56005F5ADE /* NTGeneralURLAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 356A90C90B12AA56005F5ADE /* NTGeneralURLAccess.m */; };
+		8D01CCCC0486CAD60068D4B7 /* freesoundsearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB77B2FE8417CDC02AAC07 /* freesoundsearch.m */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3508A4900B5EF6D100DF77D1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB77B2FE8417CDC02AAC07 /* freesoundsearch.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = freesoundsearch.m; sourceTree = "<group>"; };
+		351B89B31DC80A6D00E085DF /* maxmspsdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = maxmspsdk.xcconfig; sourceTree = "<group>"; };
+		351B89B71DC80E8400E085DF /* MaxAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAPI.framework; path = "../source/c74support/max-includes/MaxAPI.framework"; sourceTree = "<group>"; };
+		351B89BB1DC8103700E085DF /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		353158A40B59F187003465EA /* freesoundsearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = freesoundsearch.h; sourceTree = "<group>"; };
+		354CDFF70B5F0FAB008DD222 /* AGRegex.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = AGRegex.m; path = AGRegex/AGRegex.m; sourceTree = "<group>"; };
+		354CDFF80B5F0FAB008DD222 /* AGRegex.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AGRegex.h; path = AGRegex/AGRegex.h; sourceTree = "<group>"; };
+		354CDFFE0B5F0FB1008DD222 /* chartables.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = chartables.c; sourceTree = "<group>"; };
+		354CDFFF0B5F0FB1008DD222 /* config.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		354CE0000B5F0FB1008DD222 /* get.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = get.c; sourceTree = "<group>"; };
+		354CE0010B5F0FB1008DD222 /* internal.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = internal.h; sourceTree = "<group>"; };
+		354CE0020B5F0FB1008DD222 /* maketables.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = maketables.c; sourceTree = "<group>"; };
+		354CE0030B5F0FB1008DD222 /* pcre.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = pcre.c; sourceTree = "<group>"; };
+		354CE0040B5F0FB1008DD222 /* pcre.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = pcre.h; sourceTree = "<group>"; };
+		354CE0050B5F0FB1008DD222 /* study.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = study.c; sourceTree = "<group>"; };
+		356013650B1C23AB0022DDB0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		356A908D0B12931F005F5ADE /* NTFreesoundSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTFreesoundSearch.h; sourceTree = "<group>"; };
+		356A908E0B12931F005F5ADE /* NTFreesoundSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTFreesoundSearch.m; sourceTree = "<group>"; };
+		356A909F0B129C6E005F5ADE /* NTLoginConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTLoginConnection.h; sourceTree = "<group>"; };
+		356A90A00B129C6E005F5ADE /* NTLoginConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTLoginConnection.m; sourceTree = "<group>"; };
+		356A90C80B12AA56005F5ADE /* NTGeneralURLAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTGeneralURLAccess.h; sourceTree = "<group>"; };
+		356A90C90B12AA56005F5ADE /* NTGeneralURLAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTGeneralURLAccess.m; sourceTree = "<group>"; };
+		8D01CCD20486CAD60068D4B7 /* freesoundsearch.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = freesoundsearch.mxo; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D01CCCD0486CAD60068D4B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351B89BC1DC8103700E085DF /* QTKit.framework in Frameworks */,
+				351B89B81DC80E8400E085DF /* MaxAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* maximum */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77ADFE841716C02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+			);
+			name = maximum;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				351B89BB1DC8103700E085DF /* QTKit.framework */,
+				351B89B71DC80E8400E085DF /* MaxAPI.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				356013650B1C23AB0022DDB0 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77ADFE841716C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				351B89B31DC80A6D00E085DF /* maxmspsdk.xcconfig */,
+				353158A40B59F187003465EA /* freesoundsearch.h */,
+				08FB77B2FE8417CDC02AAC07 /* freesoundsearch.m */,
+				356A908D0B12931F005F5ADE /* NTFreesoundSearch.h */,
+				356A908E0B12931F005F5ADE /* NTFreesoundSearch.m */,
+				356A909F0B129C6E005F5ADE /* NTLoginConnection.h */,
+				356A90A00B129C6E005F5ADE /* NTLoginConnection.m */,
+				356A90C80B12AA56005F5ADE /* NTGeneralURLAccess.h */,
+				356A90C90B12AA56005F5ADE /* NTGeneralURLAccess.m */,
+				354CDFF80B5F0FAB008DD222 /* AGRegex.h */,
+				354CDFF70B5F0FAB008DD222 /* AGRegex.m */,
+				354CDFFD0B5F0FB1008DD222 /* pcre-4.3 */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D01CCD20486CAD60068D4B7 /* freesoundsearch.mxo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		354CDFFD0B5F0FB1008DD222 /* pcre-4.3 */ = {
+			isa = PBXGroup;
+			children = (
+				354CDFFE0B5F0FB1008DD222 /* chartables.c */,
+				354CDFFF0B5F0FB1008DD222 /* config.h */,
+				354CE0000B5F0FB1008DD222 /* get.c */,
+				354CE0010B5F0FB1008DD222 /* internal.h */,
+				354CE0020B5F0FB1008DD222 /* maketables.c */,
+				354CE0030B5F0FB1008DD222 /* pcre.c */,
+				354CE0040B5F0FB1008DD222 /* pcre.h */,
+				354CE0050B5F0FB1008DD222 /* study.c */,
+			);
+			name = "pcre-4.3";
+			path = "AGRegex/pcre-4.3";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D01CCC70486CAD60068D4B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356A908F0B12931F005F5ADE /* NTFreesoundSearch.h in Headers */,
+				356A90A10B129C6E005F5ADE /* NTLoginConnection.h in Headers */,
+				356A90CA0B12AA56005F5ADE /* NTGeneralURLAccess.h in Headers */,
+				353158A50B59F187003465EA /* freesoundsearch.h in Headers */,
+				354CDFFA0B5F0FAB008DD222 /* AGRegex.h in Headers */,
+				354CE0070B5F0FB1008DD222 /* config.h in Headers */,
+				354CE0090B5F0FB1008DD222 /* internal.h in Headers */,
+				354CE00C0B5F0FB1008DD222 /* pcre.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D01CCC60486CAD60068D4B7 /* freesoundsearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FF6670A096B494E00E9E0B4 /* Build configuration list for PBXNativeTarget "freesoundsearch" */;
+			buildPhases = (
+				8D01CCC70486CAD60068D4B7 /* Headers */,
+				3508A4900B5EF6D100DF77D1 /* CopyFiles */,
+				8D01CCCB0486CAD60068D4B7 /* Sources */,
+				8D01CCCD0486CAD60068D4B7 /* Frameworks */,
+				8D01CCCF0486CAD60068D4B7 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = freesoundsearch;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = MaxExternal;
+			productReference = 8D01CCD20486CAD60068D4B7 /* freesoundsearch.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = 0FF6670E096B494E00E9E0B4 /* Build configuration list for PBXProject "freesoundsearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* maximum */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D01CCC60486CAD60068D4B7 /* freesoundsearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXRezBuildPhase section */
+		8D01CCCF0486CAD60068D4B7 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D01CCCB0486CAD60068D4B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D01CCCC0486CAD60068D4B7 /* freesoundsearch.m in Sources */,
+				356A90900B12931F005F5ADE /* NTFreesoundSearch.m in Sources */,
+				356A90A20B129C6E005F5ADE /* NTLoginConnection.m in Sources */,
+				356A90CB0B12AA56005F5ADE /* NTGeneralURLAccess.m in Sources */,
+				354CDFF90B5F0FAB008DD222 /* AGRegex.m in Sources */,
+				354CE0060B5F0FB1008DD222 /* chartables.c in Sources */,
+				354CE0080B5F0FB1008DD222 /* get.c in Sources */,
+				354CE00A0B5F0FB1008DD222 /* maketables.c in Sources */,
+				354CE00B0B5F0FB1008DD222 /* pcre.c in Sources */,
+				354CE00D0B5F0FB1008DD222 /* study.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0FF6670B096B494E00E9E0B4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351B89B31DC80A6D00E085DF /* maxmspsdk.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				DEPLOYMENT_LOCATION = NO;
+				DSTROOT = "$(PROJECT_DIR)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(C74SUPPORT)/max-includes\"",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(C74SUPPORT)/max-includes/macho-prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "/../../../sysbuild/$(CONFIGURATION)/Cycling '74/externals";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = Bundle;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naotokui.maxmsp.freesoundsearch;
+				PRODUCT_NAME = freesoundsearch;
+				SDKROOT = macosx10.11;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = mxo;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		0FF6670C096B494E00E9E0B4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351B89B31DC80A6D00E085DF /* maxmspsdk.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEPLOYMENT_LOCATION = NO;
+				DSTROOT = "$(PROJECT_DIR)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(C74SUPPORT)/max-includes\"",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(C74SUPPORT)/max-includes/macho-prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "/../../../sysbuild/$(CONFIGURATION)/Cycling '74/externals";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = Bundle;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naotokui.maxmsp.freesoundsearch;
+				PRODUCT_NAME = freesoundsearch;
+				SDKROOT = macosx10.11;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = mxo;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		0FF6670D096B494E00E9E0B4 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351B89B31DC80A6D00E085DF /* maxmspsdk.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = NO;
+				DSTROOT = "$(PROJECT_DIR)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(C74SUPPORT)/max-includes\"",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(C74SUPPORT)/max-includes/macho-prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(C74SUPPORT)/msp-includes\"",
+					"\"$(C74SUPPORT)/max-includes\"",
+					"\"$(C74SUPPORT)/jit-includes\"",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "/../../../sysbuild/$(CONFIGURATION)/Cycling '74/externals";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = Bundle;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naotokui.maxmsp.freesoundsearch;
+				PRODUCT_NAME = maximum;
+				SDKROOT = macosx10.11;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = mxo;
+			};
+			name = Default;
+		};
+		0FF6670F096B494E00E9E0B4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351B89B31DC80A6D00E085DF /* maxmspsdk.xcconfig */;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				GCC_DEBUGGING_SYMBOLS = full;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Development;
+		};
+		0FF66710096B494E00E9E0B4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351B89B31DC80A6D00E085DF /* maxmspsdk.xcconfig */;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		0FF66711096B494E00E9E0B4 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351B89B31DC80A6D00E085DF /* maxmspsdk.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FF6670A096B494E00E9E0B4 /* Build configuration list for PBXNativeTarget "freesoundsearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF6670B096B494E00E9E0B4 /* Development */,
+				0FF6670C096B494E00E9E0B4 /* Deployment */,
+				0FF6670D096B494E00E9E0B4 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		0FF6670E096B494E00E9E0B4 /* Build configuration list for PBXProject "freesoundsearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF6670F096B494E00E9E0B4 /* Development */,
+				0FF66710096B494E00E9E0B4 /* Deployment */,
+				0FF66711096B494E00E9E0B4 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
